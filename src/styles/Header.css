@@ -1,0 +1,56 @@
+section.header{
+    padding:0;
+}
+.header-homepage {
+    position: relative;
+    margin-bottom: 70px;
+}
+.header-banner {
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 18px 18px 0px 0px;
+    object-fit: cover;
+
+}
+.header-info {
+    display: flex;
+    justify-content: space-between; /* left column + right button */
+    align-items: center;
+    width: 100%;                    /* stays inside the section */
+    max-width: 100%;                /* prevents overflow */
+    box-sizing: border-box;         /* padding won't push it out */
+    padding: 0 20px 20px 20px;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;         /* stack name + title */
+}
+.header-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header-title {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+}
+
+.btn:hover {
+    border-color: #007bff;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px; /* move text where you want it */
+    left: 80%;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    -webkit-background-clip:  text;
+    color: transparent;
+    white-space: nowrap;
+    font-style:italic;
+}
+

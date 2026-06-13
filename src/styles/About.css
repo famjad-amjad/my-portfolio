@@ -1,0 +1,16 @@
+.about {
+    justify-content: space-between; /* left column + right button */
+    width: 100%; /* stays inside the section */
+    max-width: 100%; /* prevents overflow */
+    box-sizing: border-box; /* padding won't push it out */
+}
+.about-header {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.about-body {
+    white-space: pre-line;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
