@@ -1,0 +1,33 @@
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.experience-item {
+    position: relative;
+    padding: 6px 12px;
+    border: 2px solid var(--border-subtle);
+    /*border-radius: 18px;*/
+    color: black;
+    width: fit-content;
+    background: #f3f3f3;
+    transition: transform 0.2s ease, background 0.2s ease;
+    display: flex; /* NEW */
+    flex-direction: column; /* NEW → stack company + role */
+}
+
+.experience-item:hover {
+    transform: translateY(-3px);
+    background: #dfe9ff;
+}
+.experience-company {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0 5px 0 5px;
+}
+.experience-role {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    padding: 0 5px 0 5px;
+}

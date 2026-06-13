@@ -1,0 +1,20 @@
+.social-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #333;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon:hover {
+    color: #0077b5; /* LinkedIn blue */
+    transform: translateY(-3px);
+}
+.contact-header {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
